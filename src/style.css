@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@500&family=Poppins:wght@300&family=Raleway&family=Rubik+Glitch&display=swap');
+
+* {
+    margin: 0;
+    background-color: #FFFEF7;
+    font-family: 'Inter';
+}
+
+.navbar {
+    background-color: #134611;
+    text-align: center;
+    padding: 16px;
+    font-size: 24px;
+    color: #FFFEF7;
+}
+
+.card {
+    padding: 60px;
+    /* padding-left: 300px;
+    padding-right: 340px; */
+    display: flex;
+    gap: 24px;
+    min-width: 400px;
+    max-width: 800px;
+    justify-content: center;
+}
+
+.country-photo {
+    width: 155px;
+    height: 218px;
+    left: 40px;
+    top: 100px;
+    border-radius: 5px;
+}
+
+.location-div {
+    display: flex;
+    gap: 16px;
+}
+
+.location-logo {
+    width: 12px ;
+    height: 12px ;
+    background-color: #134611 ;
+    border-radius: 30px 30px 0px 30px ;
+    position:relative ;
+    transform: rotate(45deg);
+  }
+
+  .google-maps {
+      text-decoration: none;
+      color: #918E9B;
+      
+  }
+
+.country-div {
+    display: flex;
+    gap: 4px;
+}
+
+.title {
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'Inter';
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+.date {
+    font-size: 14.24px;
+    font-weight: 700;
+    padding-bottom: 6px;
+}
+
+.description {
+    font-size: 14.24px;
+    font-weight: 400;
+    padding-top: 4px;
+}
